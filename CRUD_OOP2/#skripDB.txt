@@ -1,0 +1,13 @@
+CREATE DATABASE mahasiswa;
+USE mahasiswa;
+CREATE TABLE `tbl_nilai` (
+`nim` int(11) NOT NULL,
+`nama` varchar(200) DEFAULT NULL,
+`uts` int(11) DEFAULT NULL,
+`uas` int(11) DEFAULT NULL,
+`tugas` int(11) DEFAULT NULL,
+`na` int(11) DEFAULT NULL,
+`status` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ALTER TABLE `tbl_nilai`
+ADD PRIMARY KEY (`nim`);
